@@ -45,11 +45,11 @@ const Menu = () => {
                                 <span>Our Services</span>
                             </Link>
                         </li>
-                        <li className={`nav-item h-full flex items-center justify-center home ${pathname === '/case-studies' ? 'active' : ''}`}>
-                            <Link className='flex gap-1 items-center nav-link text-title' href={'/case-studies'}>
-                                <span>Case Studies</span>
-                            </Link>
-                        </li>
+                        {/*<li className={`nav-item h-full flex items-center justify-center home ${pathname === '/case-studies' ? 'active' : ''}`}>*/}
+                        {/*    <Link className='flex gap-1 items-center nav-link text-title' href={'/case-studies'}>*/}
+                        {/*        <span>Case Studies</span>*/}
+                        {/*    </Link>*/}
+                        {/*</li>*/}
                         <li className={`nav-item h-full flex items-center justify-center home ${pathname === '/blog' ? 'active' : ''}`}>
                             <Link className='flex gap-1 items-center nav-link text-title' href={'/blog'}>
                                 <span>Blog</span>
@@ -72,7 +72,8 @@ const Menu = () => {
                             Free Consultancy
                         </div>
                         <div className='number text-button'>
-                            +123 456 789
+                            +88-01672-554243(BD)
+                            +090-1351-6944(JP)
                         </div>
                     </div>
                 </div>
@@ -102,11 +103,11 @@ const Menu = () => {
                                 <span className='font-bold body1'>Our Services</span>
                             </a>
                         </li>
-                        <li className='gap-2 pt-2 pr-3 pb-2 pl-3 h-full nav-item-mobile flex-column pointer'>
-                            <a className='flex justify-between items-center nav-link-mobile' href="/case-studies">
-                                <span className='font-bold body1'>Case Studies</span>
-                            </a>
-                        </li>
+                        {/*<li className='gap-2 pt-2 pr-3 pb-2 pl-3 h-full nav-item-mobile flex-column pointer'>*/}
+                        {/*    <a className='flex justify-between items-center nav-link-mobile' href="/case-studies">*/}
+                        {/*        <span className='font-bold body1'>Case Studies</span>*/}
+                        {/*    </a>*/}
+                        {/*</li>*/}
                         <li className='gap-2 pt-2 pr-3 pb-2 pl-3 h-full nav-item-mobile flex-column pointer'>
                             <a className='flex justify-between items-center nav-link-mobile' href="/blog">
                                 <span className='font-bold body1'>Blog</span>

@@ -25,7 +25,7 @@ export default function Home() {
                <Slider />
                <Service/>
                <PaymentGateway />
-               <CaseStudy />
+               {/*<CaseStudy />*/}
                <PaymentGatewayTwo />
                <FormRequest />
                <Testimonial/>

@@ -52,13 +52,13 @@ return (
              ) 
            }
  
-            <Link className='flex justify-center items-center w-7 h-7 rounded-full border-2 item border-gray' href='https://linkedin.com/' target='_blank'>
-            <i className='text-xs icon-in'></i>
-            </Link>
+            {/*<Link className='flex justify-center items-center w-7 h-7 rounded-full border-2 item border-gray' href='https://linkedin.com/' target='_blank'>*/}
+            {/*<i className='text-xs icon-in'></i>*/}
+            {/*</Link>*/}
 
-            <Link className='flex justify-center items-center w-7 h-7 rounded-full border-2 item border-gray' href='https://twitter.com/' target='_blank'>
-            <i className='text-xs icon-twitter'></i>
-            </Link>
+            {/*<Link className='flex justify-center items-center w-7 h-7 rounded-full border-2 item border-gray' href='https://twitter.com/' target='_blank'>*/}
+            {/*<i className='text-xs icon-twitter'></i>*/}
+            {/*</Link>*/}
 
             {
             footer.youtube && ( <Link className='flex justify-center items-center w-7 h-7 rounded-full border-2 item border-gray' href={footer.youtube} target='_blank'>
@@ -75,53 +75,85 @@ return (
 
     <div className='lg:w-1/2'>
     <div className='flex gap-20 justify-center items-center footer-navigate'>
+
         <div className='footer-nav-item'> 
         <div className='text-white item-heading text-button-sm'>
-                Quick Links
+               Services
         </div>
         <ul className='mt-1 text-white list-nav'>
             <li className='mt-3'>
                 <Link className='caption1 has-line-before line-white text-surface hover-underline' href='/'>
-                    About Us 
+                    Web Development
                 </Link>
             </li>
             <li className='mt-3'>
                 <Link className='caption1 has-line-before line-white text-surface hover-underline' href='/'>
-                    Services
+                   Mobile Apps
                 </Link>
             </li>
             <li className='mt-3'>
                 <Link className='caption1 has-line-before line-white text-surface hover-underline' href='/'>
-                   Case Studies
+                   Digital Marketing
                 </Link>
             </li>
             <li className='mt-3'>
                 <Link className='caption1 has-line-before line-white text-surface hover-underline' href='/'>
-                 Contact
+                 Graphic Design
                 </Link>
             </li>
         </ul>
       </div>
 
 
-    <div className='footer-nav-item max-sm:hidden'>
+    {/*<div className='footer-nav-item max-sm:hidden'>*/}
+    {/*<div className='text-white item-heading text-button-sm'>*/}
+    {/*           Pages*/}
+    {/*    </div>*/}
+    {/*    <ul className='mt-1 text-white list-nav'>*/}
+    {/*        <li className='mt-3'>*/}
+    {/*            <Link className='caption1 has-line-before line-white text-surface hover-underline' href='/'>*/}
+    {/*                About Us */}
+    {/*            </Link>*/}
+    {/*        </li>*/}
+    {/*        <li className='mt-3'>*/}
+    {/*            <Link className='caption1 has-line-before line-white text-surface hover-underline' href='/'>*/}
+    {/*                Services*/}
+    {/*            </Link>*/}
+    {/*        </li>*/}
+    {/*        <li className='mt-3'>*/}
+    {/*            <Link className='caption1 has-line-before line-white text-surface hover-underline' href='/'>*/}
+    {/*               Case Studies*/}
+    {/*            </Link>*/}
+    {/*        </li>*/}
+    {/*        <li className='mt-3'>*/}
+    {/*            <Link className='caption1 has-line-before line-white text-surface hover-underline' href='/'>*/}
+    {/*             Contact*/}
+    {/*            </Link>*/}
+    {/*        </li>*/}
+    {/*    </ul>*/}
+    {/*</div>*/}
+
+
+
+
+    <div className='footer-nav-item'>
     <div className='text-white item-heading text-button-sm'>
-               Pages
+             Quick Links
         </div>
         <ul className='mt-1 text-white list-nav'>
             <li className='mt-3'>
                 <Link className='caption1 has-line-before line-white text-surface hover-underline' href='/'>
-                    About Us 
+                    About Us
                 </Link>
             </li>
             <li className='mt-3'>
                 <Link className='caption1 has-line-before line-white text-surface hover-underline' href='/'>
-                    Services
+                    Privacy
                 </Link>
             </li>
             <li className='mt-3'>
                 <Link className='caption1 has-line-before line-white text-surface hover-underline' href='/'>
-                   Case Studies
+                   Blog
                 </Link>
             </li>
             <li className='mt-3'>
@@ -132,36 +164,6 @@ return (
         </ul>
     </div>
 
-
-
-
-    <div className='footer-nav-item'>
-    <div className='text-white item-heading text-button-sm'>
-               Blog
-        </div>
-        <ul className='mt-1 text-white list-nav'>
-            <li className='mt-3'>
-                <Link className='caption1 has-line-before line-white text-surface hover-underline' href='/'>
-                    All Blog
-                </Link>
-            </li>
-            <li className='mt-3'>
-                <Link className='caption1 has-line-before line-white text-surface hover-underline' href='/'>
-                    Services
-                </Link>
-            </li>
-            <li className='mt-3'>
-                <Link className='caption1 has-line-before line-white text-surface hover-underline' href='/'>
-                   Case Studies
-                </Link>
-            </li>
-            <li className='mt-3'>
-                <Link className='caption1 has-line-before line-white text-surface hover-underline' href='/'>
-                 Contact
-                </Link>
-            </li>
-        </ul>
-    </div> 
     </div> 
     </div>
 
@@ -170,22 +172,24 @@ return (
             <div className='text-white heading text-button-sm'>
                 NewsLetter
             </div>
-        <div className='flex items-start mt-3'>
-            <div className='text'>
-                <div className='text-white cpation2 text-surface'>
-                    Need Help? 24/7
-                </div>
-            <div className='mt-1 text-white fw-700'>
-            {footer.phone }
-            </div> 
-            </div> 
-        </div>
 
-        <div className='flex items-center mt-3 locate'>
-            <div className='text-white caption1 text-surface'>
-            {footer.address}
-            </div> 
-        </div>
+    {/*    <div className='flex items-start mt-3'>*/}
+    {/*        <div className='text'>*/}
+    {/*            <div className='text-white cpation2 text-surface'>*/}
+    {/*                Need Help? 24/7*/}
+    {/*            </div>*/}
+    {/*        <div className='mt-1 text-white fw-700'>*/}
+    {/*        {footer.phone }g*/}
+
+    {/*        </div> */}
+    {/*        </div> */}
+    {/*    </div>*/}
+
+    {/*    <div className='flex items-center mt-3 locate'>*/}
+    {/*        <div className='text-white caption1 text-surface'>*/}
+    {/*        {footer.address}*/}
+    {/*        </div> */}
+    {/*    </div>*/}
 
     <form className='send-block mt-5 flex items-center h-[45px] rounded-lg overflow-hidden'>
         <input className='pr-4 pl-3 w-full h-full caption1 text-secondary' type="text" placeholder='Your Email Address' />
